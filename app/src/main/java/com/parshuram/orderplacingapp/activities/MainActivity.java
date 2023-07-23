@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
 //           we will get auto location updated in every 5 minutes
                                 .setInterval(5*60*1000)
+                                .setFastestInterval(5*60*1000)
                         , new LocationCallback() {
                             @Override
                             public void onLocationResult(LocationResult locationResult) {
