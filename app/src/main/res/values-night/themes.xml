@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OrderPlacingApp" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.OrderPlacingApp" parent="Base.Theme.OrderPlacingApp">
+
+
+        <item name="android:statusBarColor" tools:targetApi="l">#ffe2e2</item>
+    </style>
+</resources>

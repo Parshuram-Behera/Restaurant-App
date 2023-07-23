@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/home_icon"
+        android:id="@+id/nav_icon_home"
+        android:iconTint="@color/selectedColor"
+        />
+    <item android:title="Orders"
+        android:icon="@drawable/orders_icon"
+        android:id="@+id/nav_icon_orders"
+        android:iconTint="@color/selectedColor"
+        />
+
+
+    <item android:title=""
+        android:id="@+id/mi_empty_placeholder"
+        />
+
+    <item android:title="Saved"
+        android:icon="@drawable/bookmark_icon"
+        android:id="@+id/nav_icon_saved"
+        android:iconTint="@color/selectedColor"
+        />
+    <item android:title="Profile"
+        android:icon="@drawable/profile_icon"
+        android:id="@+id/nav_icon_profile"
+        android:iconTint="@color/selectedColor"
+        />
+
+</menu>

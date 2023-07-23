@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_fragment_background"
+    tools:context=".fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/txtViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/location_name"
+        android:textColor="@color/black"
+        app:drawableLeftCompat="@drawable/location_icon"
+        app:drawableTint="#960A0A" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/topCategoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/txtViewLocation"
+        android:layout_marginTop="10dp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/search_city"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@id/topCategoryRecyclerView"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <EditText
+            android:id="@+id/user_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_background"
+            android:hint="@string/searchbar_hint"
+            android:inputType="text"
+            android:paddingStart="48dp"
+            android:paddingEnd="48dp"
+            android:textColor="#DA2C2828"
+            android:textColorHint="#C32C2828"
+            android:textSize="16sp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <ImageButton
+
+            android:id="@+id/search_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:padding="9dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/search"
+            app:tint="#C32C2828"
+            android:contentDescription="@string/icon_search" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtViewNearby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_Nearby_Restaurants"
+        android:layout_below="@id/search_city"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/restaurantListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_below="@+id/txtViewNearby"
+        android:layout_marginTop="10dp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Restaurant App</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_name">Name</string>
+    <string name="location_name">Infocity Squre, Bhubaneswar</string>
+    <string name="searchbar_hint">Search Food Items</string>
+    <string name="textView_Nearby_Restaurants">Nearby Restaurants</string>
+    <string name="icon_search">icon Search</string>
+    <string name="restaurant_rating">4.5 ★</string>
+    <string name="restaurant_image">TODO</string>
+    <string name="restaurant_name">Domino\'s Pizza</string>
+    <string name="textView_flatOff">% FLAT OFF</string>
+    <string name="text_discount">20</string>
+    <string name="discount_icon">discount Image</string>
+    <string name="distance_text">3.3 km</string>
+    <string name="favicon">favIcon</string>
+</resources>

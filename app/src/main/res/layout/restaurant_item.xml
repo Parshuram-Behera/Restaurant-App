@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+        <RelativeLayout
+            android:id="@+id/restaurantImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/restaurantImage"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image"
+                android:contentDescription="@string/restaurant_image" />
+
+            <TextView
+                android:id="@+id/txtViewRating"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rating_background"
+                android:gravity="center"
+                android:text="@string/restaurant_rating"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:id="@+id/restaurantName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@id/restaurantImageContainer"
+            android:layout_marginTop="6dp"
+            android:background="#00FFFFFF"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/black"
+            android:text="@string/restaurant_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/txtflat"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_below="@id/restaurantImageContainer"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/textView_flatOff"
+            android:textColor="@color/selectedColor"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/discountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restaurantImageContainer"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6dp"
+            android:layout_toStartOf="@+id/txtflat"
+            android:gravity="center"
+            android:text="@string/text_discount"
+            android:textColor="@color/selectedColor"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/restaurantImageContainer"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_toStartOf="@id/discountText"
+            android:paddingTop="5dp"
+            android:src="@mipmap/discount_icon_img"
+            android:contentDescription="@string/discount_icon" />
+
+        <TextView
+            android:id="@+id/txtdistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/restaurantName"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/distance_text"
+            android:textColor="#2E7D32"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:drawableTint="#960A0A"
+            app:drawableStartCompat="@drawable/location_icon" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
