@@ -23,7 +23,7 @@ The Nearby Restaurants App is an Android application that allows users to find r
 - **User Reviews**: Users can read and write reviews for restaurants, helping others make informed decisions.
 
 ## Screenshots
-<img src="[screenshots/screenshot_1.pn](https://github.com/Parshuram-Behera/All-App-Images/assets/107804534/ca2f4807-49c7-4f12-bcf2-f79e1aebe8b3)g" alt="Home Screen" width="250"/>
+<img src="https://github.com/Parshuram-Behera/All-App-Images/assets/107804534/ca2f4807-49c7-4f12-bcf2-f79e1aebe8b3" alt="Home Screen" width="250"/>
 
 ## Installation
 
