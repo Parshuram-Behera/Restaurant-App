@@ -24,9 +24,7 @@ The Nearby Restaurants App is an Android application that allows users to find r
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot_1.png)
-![Screenshot 2](screenshots/screenshot_2.png)
-![Screenshot 3](screenshots/screenshot_3.png)
+![Home Screen](https://github.com/Parshuram-Behera/All-App-Images/assets/107804534/ca2f4807-49c7-4f12-bcf2-f79e1aebe8b3)
 
 ## Installation
 
