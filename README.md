@@ -14,8 +14,9 @@ https://github.com/Parshuram-Behera/All-App-Images/assets/107804534/6497f0e1-511
 
 ## Screenshots
 <img src="https://github.com/Parshuram-Behera/All-App-Images/assets/107804534/ca2f4807-49c7-4f12-bcf2-f79e1aebe8b3" alt="Home Screen" width="250"/>
-## Permissions
 
+
+## Permissions
 The Nearby Restaurants App requires the following permissions to function properly:
 
 - **Location**: To access the device's GPS and provide nearby restaurant suggestions.
